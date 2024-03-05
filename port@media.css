@@ -75,7 +75,7 @@
   #projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    height: 300px;
+    height: max-content;
     width: 80%;
     margin: 50px;
   }
