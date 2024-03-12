@@ -1,6 +1,18 @@
 
-            const btn = document.getElementById("tgbtn");
-            const x = document.getElementById("link");
+        const toggleBtn = document.getElementById('toggleButton');
+        const navLinks = document.getElementById('navLinks');
+        const btn = document.getElementById("tgbtn");
+        const x = document.getElementById("link");
+
+
+        toggleButton.style.marginLeft = "90%"
+
+
+
+        toggleBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
             btn.addEventListener('click', () => {
                 x.classList.toggle('active');
             });
