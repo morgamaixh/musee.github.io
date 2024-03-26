@@ -337,7 +337,7 @@
     #projects {
       align-items: center;
      display: flex;
-      height: max-content;
+      height: 600px;
       width: 100%;
       margin: 5px;
     }
