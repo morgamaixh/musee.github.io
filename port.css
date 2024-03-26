@@ -372,7 +372,7 @@
 
 
 
-.container {
+.contakt {
 	background-color: #fff;
 	border: 3px solid #660033;
 	border-radius: 10px;
@@ -388,28 +388,28 @@
   margin-top: 30px;
 }
 
-.container p {
+.contakt p {
 	color: rgb(136, 136, 136);
 	letter-spacing: 0.4px;
   font-size: larger;
 }
 
-.container form {
+.contakt form {
 	width: 100%;
 }
 
-.container .input-area {
+.contakt .input-area {
 	position: relative;
 	margin: 10px 0;
 	height: 44px;
 	width: 100%;
 }
 
-.container .h-80 {
+.contakt .h-80 {
 	height: 80px;
 }
 
-.container input, .container textarea {
+.contakt input, .contakt textarea {
   position: absolute;
 	display: block;
 	font-family: "Poppins", sans-serif;
@@ -423,7 +423,7 @@
   resize: none;
 }
 
-.container .sendbtn {
+.contakt .sendbtn {
   display: block;
   width: 100%;
 	background: #660033;
@@ -435,12 +435,12 @@
   cursor: pointer;
 }
 
-.container .sendbtn:hover {
+.contakt .sendbtn:hover {
   background-color: #993366;
 }
 
 @media screen and (max-width: 600px) {
-	.container {
+	.contakt {
 		padding: 20px 30px;
 	}
 }
