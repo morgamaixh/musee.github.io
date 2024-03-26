@@ -275,7 +275,7 @@
      }
      .flex1 {
       width: fit-content;
-      height: fit-content;
+      height: 100vh;
      }
 
      .sp {
@@ -385,7 +385,7 @@
 	text-align: center;
 	width: 600px;
 	max-width: 100%;
-  margin-top: 30px;
+  margin-left: 45%;
 }
 
 .contakt p {
