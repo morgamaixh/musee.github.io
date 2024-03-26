@@ -31,29 +31,7 @@
     float: right;
     justify-content: space-between;
 }
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
 
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black }
-  }
-
-  .typing-container {
-    font-family: 'Courier New', monospace;
-    display: inline-block;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    animation: blink-caret 1s steps(1) infinite;
-  }
-
-  .typing-text {
-    display: inline-block;
-    animation: typing 3s steps(30, end) 1s 1 normal both,
-               blink-caret 500ms steps(1) infinite;
 .nav-bar a {
     
     color: darkgreen;
