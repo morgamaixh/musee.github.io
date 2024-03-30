@@ -274,6 +274,7 @@
       border-radius: 5px;
      }
      .flex1 {
+	margin-top: 100px;
       width: fit-content;
       height: 100vh;
 	display: flex;
