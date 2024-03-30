@@ -276,6 +276,8 @@
      .flex1 {
       width: fit-content;
       height: 100vh;
+	display: flex;
+      width: 100%;
      }
 
      .sp {
