@@ -340,6 +340,7 @@
       
     }
     #projects {
+	    margin-left: 100px;
       align-items: center;
      display: flex;
       height: 600px;
@@ -390,7 +391,7 @@
 	text-align: center;
 	width: 600px;
 	max-width: 100%;
-  margin-left: 45%;
+  margin-left: 25%;
 }
 
 .contakt p {
