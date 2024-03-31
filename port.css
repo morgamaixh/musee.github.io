@@ -277,9 +277,9 @@
      .flex1 {
 	     margin-left: 30px;
 	margin-top: 300px;
-      width: fit-content;
-      height: 100vh;
-	display: flex;
+      
+      height: 70vh;
+	
       width: 100%;
      }
 
