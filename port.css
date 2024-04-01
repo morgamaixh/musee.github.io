@@ -337,8 +337,9 @@
       
     }
     #projects {
-	    margin-left: 100px;
+	    margin-left: 0px;
       align-items: center;
+	    justify-content: center;
      display: flex;
       height: 600px;
       width: 100%;
