@@ -19,6 +19,21 @@
     position: fixed;
     margin-top: 0px;
   }
+	.ne {
+		color: white;
+		font-size: medium;
+		font-weight: bolder;
+	}
+	.me {
+		color: white;
+		font-size: medium;
+		font-weight: bolder;
+	}
+	.de {
+		color: white;
+		font-size: medium;
+		font-weight: bolder;
+	}
   .btn {
     text-decoration: none;
   }
