@@ -112,19 +112,14 @@
     border: 3px solid orange;
   }
   .logo {
-    margin-left: 20px;
+    margin-left: 10px;
   }
  
   .toggle-Button {
     display: flex;
     float: right;
   }
-  #search {
-    display: none;
-  }
-  #sach {
-    display: none;
-  }
+ 
   .nav-links li {
     padding: 12px 0px;
   }
