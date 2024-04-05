@@ -2,10 +2,10 @@
     margin: 0;
     box-sizing: border-box;
     width: 100%;
-	 background-color: bisque;
+	 background-color: white-smoke;
 }
 h10{
-	text-align: center;
+	margin-left: 48%;
 	color: red;
 	font-size: larger;
 	font-weight: bolder;
