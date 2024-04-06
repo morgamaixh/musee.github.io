@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="@media.css">
+</head>
+
+<body>
+
+
+
+
+    <div class="head">
+        <logo class="logo">
+            <span class="ne">M</span>
+            <span class="me">&</span>
+            <span class="de">M</span>
+
+        </logo>
+
+
+        <div class="nav-bar">
+
+            <div class="toggle-Button" id="toggleButton">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#abt1">Home</a> </li>
+                <li><a href="#abt1">About</a> </li>
+                <li> <a href="#projects">Projects</a></li>
+                <li><a href="#contme1">Contact</a> </li>
+                <li><a href="#">Blog</a> </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="flexbox">
+
+        <div class="flex1" id="abt1">
+            <intro class="intro_me">
+                <p class="myp">
+                    <span class="color">Hello ! Welcome</span>
+                    <br>I am a frontend developer with 3years of experience.<br>
+                    My expertise is to create and design websites of any kind<br><span class="clo">I would love to serve
+                        you!!</span><br>
+                    <a href="\musee.github.io/MORGAN MAINA MUSEE.pdf" download class="btn" id="hove">Get CV</a>
+
+                </p>
+                <button class="hire" id="hover">Hire Me</button>
+                <button class="hire1" id="hover">Projects</button>
+                <button class="hire2" id="hover">Blog</button>
+
+
+
+            </intro>
+
+
+        </div>
+        <img src="C:\omollo\Photoroom1.png" class="myph">
+       
+    </div>
+    
+    <h4>My Services:</h4>
+    <div class="services">
+
+        <div class="box">
+            <h6 class="boxh">Web Development</h6>
+            <img src="C:\my projects\images\Webdvp.jpg" class="sav">
+            <p class="par">As a web developer, i use latest technologies and
+                and frameworks to ensure that your website looks stunning and up to date
+                with the best UI.
+            </p>
+            <button class="morec">Learn More</button>
+        </div>
+        <div class="box">
+            <h6 class="boxh">Web hosting</h6>
+            <img src="C:\my projects\images\host.jpg" class="sav">
+            <p class="par">As a web developer, i use latest technologies and
+                and frameworks to ensure that your website looks stunning and up to date
+                with the best UI.
+            </p>
+            <button class="morec">Learn More</button>
+        </div>
+        <div class="box">
+            <h6 class="boxh">Web Management</h6>
+            <img src="C:\my projects\images\webmgmt.jpg" class="sav">
+            <p class="par">As a web developer, i use latest technologies and
+                and frameworks to ensure that your website looks stunning and up to date
+                with the best UI.
+            </p>
+            <button class="morec">Learn More</button>
+        </div>
+        <div class="box">
+            <h6 class="boxh">Search Engine Optimization</h6>
+            <img src="C:\my projects\images\seo.jpg" class="sav">
+            <p class="par">As a web developer, i use latest technologies and
+                and frameworks to ensure that your website looks stunning and up to date
+                with the best UI.
+            </p>
+            <button class="morec">Learn More</button>
+        </div>
+
+    </div>
+
+
+    <h10 class="hp">My Projects:</h10>
+    <div id="projects">
+        <button class="project1" id="b" onclick="comerse()">
+            E-comerce website
+        </button>
+        <button class="project2" id="b">
+            Blog website
+        </button>
+        <button class="project2" id="b" onclick="ridirect()">
+            Mini projects
+        </button>
+        <button class="project3" id="b" onclick="personal()">
+            personal website
+        </button>
+        <button class="project4" id="b">
+            Chart App
+        </button>
+        <button class="project5" id="b">
+            Landing Page
+        </button>
+    </div>
+
+    <h10 class="hp">contact Me:</h10>
+    <div class="contakt" id="contme1">
+        <h2>Get in touch</h2>
+        <p>Feel free to contact me OR Hire me</p>
+        <form class="contact-form" action="mailto:morgamaixhmusee@email.com" method="post">
+            <div class="input-area">
+                <input type="text" placeholder="Your name" />
+            </div>
+            <div class="input-area">
+                <input type="email" placeholder="Email address" />
+            </div>
+            <div class="input-area">
+                <input type="text" placeholder="Subject" />
+            </div>
+            <div class="input-area h-80">
+                <textarea placeholder="Your message"></textarea>
+            </div>
+            <button class="sendbtn">Send</button>
+        </form>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="social">
+
+            <ul>
+                <li><a href="#"><img src="\musee.github.io\linkedin-icon.png"> </a> </li>
+                <li><a href="#"><img src="\musee.github.io\twitter-icon.png"> </a> </li>
+                <li><a href="#"><img src="\musee.github.io\fb-icon.png"> </a></li>
+            </ul>
+            <div class="location_text"><img src="\musee.github.io\map-icon.png"><span
+                    class="padding_left_15">Locations</span>
+            </div><br><br>
+            <p class="locme">we are located in migori county
+
+            </p>
+            <div class="location_text"><span class="padding_left_15">+254 796441495</span></div><br><br>
+            <div class="location_text"><img src="\musee.github.io\mail-icon.png"><span
+                    class="padding_left_15">morgamaixhmusee@gmail.com</span></div><br><br>
+            <h1 class="about_text">Newsletter</h1>
+            <input type="text" class="mail_text" placeholder="Enter your email" name="Enter your email"><br>
+
+            <input type="button" onclick="submitEvent()" value="subscribe" class="subscribe" />
+        </div>
+        <br>
+        &copy; Copyright M&m @2024 All rights reserved.<br>
+        <p> Designed by; <strong>M&M Developers</strong></p>
+
+
+
+
+        <script>
+            const toggleBtn = document.getElementById('toggleButton');
+            const navLinks = document.getElementById('navLinks');
+            const btn = document.getElementById("tgbtn");
+            const x = document.getElementById("link");
+
+
+            toggleButton.style.marginLeft = "90%"
+
+
+
+            toggleBtn.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+
+            btn.addEventListener('click', () => {
+                x.classList.toggle('active');
+            });
+
+            function comerse() {
+                window.location.href = "https://morgamaixh.github.io/ecomerse.github.o/"
+            }
+            function ridirect() {
+                window.location.href = "https://morgamaixh.github.io/miniprojects.github.io/"
+            }
+            function personal() {
+                window.location.href = ""
+            }
+            function comerse() {
+                window.location.href = ""
+            }
+
+        </script>
+</body>
+
+</html>

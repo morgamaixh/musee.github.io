@@ -1,0 +1,349 @@
+@media only screen and (max-width: 768px) {
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(1, 1, 46);
+  }
+
+
+  .services{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    border-bottom: 2px solid rgb(235, 11, 85);
+  }
+
+
+  .morec {
+    background-color: white;
+    color: rgb(137, 4, 4);
+    border-radius: 5px;
+    border: 1.5px solid rgb(105, 2, 2);
+    font-size: large;
+    font-weight: bolder;
+    width: max-content;
+    height: max-content;
+    padding: 3px;
+    margin-left: 100px;
+  }
+
+  .links {
+    margin-left: 10px;
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    margin-top: -10px;
+    
+  }
+  .boxh {
+    text-align: center;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+  }
+  #hover {
+    margin-left: 0px;
+  }
+  
+  #hover:hover {
+    margin-left: 20px;
+  
+  }
+ 
+  .hire{
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    height: 35px;
+    border-radius: 10px;
+    width: max-content;
+    padding: 3px;
+    font-weight: bolder;
+    font-size: medium;
+    cursor: pointer;
+  }
+  .hire1 {
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: orange;
+    color: white;
+    height: 35px;
+    border-radius: 10px;
+    width: max-content;
+    padding: 3px;
+    font-weight: bolder;
+    font-size: medium;
+  }
+  .hire2 {
+  
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    height: 35px;
+    border-radius: 10px;
+    width: max-content;
+    padding: 3px;
+    font-weight: bolder;
+    font-size: medium;
+    cursor: pointer;
+  }
+  
+  .morec {
+    background-color: white;
+    color: rgb(137, 4, 4);
+    border-radius: 5px;
+    border: 1.5px solid rgb(105, 2, 2);
+    font-size: large;
+    font-weight: bolder;
+    width: max-content;
+    height: max-content;
+    padding: 3px;
+    margin-left: 50px;
+  }
+  .morec:hover {
+    background-color: red;
+    color: white;
+   
+  }
+  
+  .sav {
+    margin-left: 80px;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+  }
+  .box {
+    border: 2px solid orange;
+    border-radius: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    width: 90%;
+    height: 350pxpx;
+    padding: 20px;
+    background-color: rgb(235, 11, 85);
+    box-shadow: 0px 4px 10px black;
+  }
+  .par {
+    color: white;
+    font-size: medium;
+  }
+  .box:hover{
+    margin-bottom: 20px;
+    margin-left: 35px;
+  }
+  h4 {
+    margin-left: 40%;
+    color: rgb(235, 11, 85);
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 40px;
+  }
+  
+  .color {
+    margin-top: 0px;
+  }
+  
+  .hp {
+    margin-left: 37%;
+    color: rgb(235, 11, 85);
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+
+
+
+  .head {
+    background-color: rgb(1, 1, 46);
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    margin-top: 0px;
+  }
+	.ne {
+		color: blue;
+		font-size: medium;
+		font-weight: bolder;
+	}
+	.me {
+		color: red;
+		font-size: medium;
+		font-weight: bolder;
+	}
+	.de {
+		color: green;
+		font-size: medium;
+		font-weight: bolder;
+	}
+  .btn {
+    text-decoration: none;
+  }
+ 
+  .flexbox {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    margin-top: 0px;
+    height: max-content;
+
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(1, 1, 46);
+  }
+  .flex1{
+    margin-left: 10px;
+    display: flex;
+    width: 100%;
+     
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(9, 9, 220);
+    padding: 25px;
+    top: 100%;
+    left: 0px;
+    border-radius: 5px;
+    height: 80vh;
+  }
+  .myp{
+    font-size: medium;
+  }
+  .nav-bar{
+    background-color: rgb(1, 1, 46);
+  }
+  .toggle-Button .bar{
+    background-color: white;
+    width: 45px;
+    height: 7px;
+    margin-right: 100px;
+  }
+  #b{
+    margin: 10px;
+    width: 100px;
+    height: 120px;
+    background-color: rgb(9, 12, 218);
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px solid orange;
+  }
+  #b:hover{
+    background-color: black;
+    
+  }
+  #projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 300px;
+    width: 80%;
+    margin: 50px;
+  }
+  #d{
+    padding: 1px;
+    border-radius: 15px;
+    height: 70px;
+    width: 70px;
+  }
+  span{
+    color: white;
+    font-weight: bolder;
+  }
+  .j{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(9, 12, 218);
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px solid orange;
+  }
+  .logo {
+    margin: 10px;
+  }
+ 
+  .toggle-Button {
+    display: flex;
+    float: right;
+  }
+ 
+  .nav-links li {
+    padding: 12px 0px;
+  }
+  .nav-links.active {
+    display: block;
+    background-color: white;
+  }
+  .myph {
+    margin-left: -20px;
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .line {
+    background-color: white;
+  }
+  .nd {
+    font-size: 17px;
+    color: white;
+  }
+  .tech {
+    font-size: 17px;
+    color: white;
+    margin-left: 40px;
+  }
+  .myp {
+    color: white;
+  }
+  .clo {
+    color: white;
+  }
+  .n {
+    color: white;
+  }
+  
+
+  .contakt {
+	background-color: #fff;
+	border: 3px solid #660033;
+	border-radius: 10px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 60px;
+	text-align: center;
+	width: 600px;
+	max-width: 100%;
+  margin-left: 0px;
+}
+
+  }
+
+
