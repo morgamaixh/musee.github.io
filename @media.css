@@ -103,10 +103,10 @@
   }
   
   .sav {
-    width: 100%;
+    width: 98%;
     height: 200px;
     border-radius: 15px;
-	  margin-right: 20px;
+	  padding: 20px;
   }
   .box {
     border: 2px solid orange;
