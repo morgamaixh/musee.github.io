@@ -5,7 +5,9 @@
      background-image: white-smoke;
 }
 
-
+.addition {
+	margin-left: -80px;
+}
 .services{
   margin-bottom: 20px;
   display: flex;
