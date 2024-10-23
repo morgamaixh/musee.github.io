@@ -569,7 +569,7 @@ h4 {
 .contakt .sendbtn:hover {
   background-color: #993366;
 }
-.popup {
+#popup {
 	display: none;
 	position: fixed;
 	top: 0;
