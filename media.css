@@ -1,4 +1,4 @@
- body {
+6 body {
     margin: 0;
     box-sizing: border-box;
     width: 100%;
@@ -195,7 +195,7 @@ h4 {
 }
 .flexbox {
 	background-image: url('webmgmt.jpg');
-	background-size: contain;
+	background-size: 300px 300px;
 	background-position: center;
 	background-attachment: fixed;
 	
