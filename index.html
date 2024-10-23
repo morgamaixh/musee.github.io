@@ -223,6 +223,23 @@
                 x.classList.toggle('active');
             });
 
+            document.addEventListener('DOMContentLoaded', ()=>{
+                const hireMeBtn = document.getElementById('hover');
+                const closeBtn = document.querySelecto('.close-btn');
+                hireMeBtn.addEventListener('click', ()=>{
+                    popup.style.display= "flex";
+                });
+                closeBtn.addEventListener('click', ()=>{
+                    popup.style.display= "none";
+                });
+                window.addEventListener('click', (event)=>{
+                    if(event.target === popup){
+                        popup.style.display="none";
+                    }
+                });
+                
+            })
+
            
             function ridirect() {
                 window.location.href = "https://morgamaixh.github.io/miniprojects.github.io/"
