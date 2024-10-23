@@ -196,7 +196,9 @@ h4 {
 .flexbox {
 	background-image: url('webmgmt.jpg');
 	background-size: cover;
-	background-position: fixed;
+	background-position: center;
+	background-attachment: fixed;
+	
 	
     margin-top: 130px;
     display: flex;
