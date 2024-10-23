@@ -2,7 +2,9 @@
     margin: 0;
     box-sizing: border-box;
     width: 100%;
-     background-image: white-smoke;
+    background-image: url('/musee.github.io/webmgmt.jpg');
+	background-size: cover;
+	background-position: fixed;
 }
 
 .addition {
@@ -194,9 +196,7 @@ h4 {
     justify-content: space-between;
 }
 .flexbox {
-	background-image: url('/musee.github.io/webmgmt.jpg');
-	background-size: cover;
-	background-position: fixed;
+	
     margin-top: 130px;
     display: flex;
     flex-direction: row;
